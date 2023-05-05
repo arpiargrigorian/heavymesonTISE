@@ -13,7 +13,7 @@ If the reduced mass of the system is $\mu$, we can write write a unitless form o
 
 $$ \lambda = \kappa (\mu a)^{2/3}$$
 
-## Finding the Energy Spectrum as a Function of $\kappa$ ($\lambda$)
+## Finding the Energy Spectrum as a Function of $\lambda$
 
 ### Inputs
 
