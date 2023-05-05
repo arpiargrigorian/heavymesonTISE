@@ -27,6 +27,6 @@ To find the energy spectrum as a function of $\lambda$, *open the file inputs.py
 - A list of tuples that contains all the combinations of quantum numbers $n$, $l$ that will be in the spectrum. The first number in the tuple is the prinicpal quantum number $n$ and the second is the total angular momentum quantum number $l$. $n$ must be greater or equal to 1, $l$ is greater or equal to 0, and both $n$, $l$ must be integers. There is no need to order each tuple. 
   - i.e. `quantum_levels = [(1, 0), (2, 2), (2, 0)]`
 
-(Later, I need to put in how other things are organized.)
+(Later, I need to put in how other things are organized.) the file to run is create_energy_spectrum.py
 
 For a two-body heavy-quark meson system, the linear term $\frac{r}{a^2}$ is t
