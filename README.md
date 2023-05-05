@@ -17,7 +17,7 @@ $$ \lambda = \kappa (\mu a)^{2/3}$$
 
 ### Inputs
 
-To find the energy spectrum as a function of $\kappa$ ($\lambda$), *open the file inputs.py* and select your choice for the following parameters.
+To find the energy spectrum as a function of $\lambda$, *open the file inputs.py* and select your choice for the following parameters.
 
 (Parentheses show the variable names of each parameter as they appear in the code).
 
