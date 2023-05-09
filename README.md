@@ -55,17 +55,10 @@ You can also choose to simply save the text output of the code if you run the fi
 
 The eigenvalues outputted by the code are unitless. To get an Energy in GeV, use the relationship:
 
-`
+```
 mu = your_value #1.85 GeV for c cbar, 5.14 GeV for b b ar. 
-`
-
-`
 a = 2.34 # GeV^{-1}
-`
 
-`
 def E(x, mu, a):
-`
-
-    `   return x*mu*(mu*a)**(-4/3)
-`
+    return x*mu*(mu*a)**(-4/3)
+```
