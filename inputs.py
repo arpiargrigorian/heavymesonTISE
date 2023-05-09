@@ -13,8 +13,8 @@ levels = [(1, 0), (1,1), (1, 2), (2, 0), (2, 1), (2, 2)] ### n,l must be integer
 
 # Indepdent Variable Parameters
 rho = np.linspace(0, 30, num = 1000)
-rho_cut_min = 1 #Just use a positive index here to avoid zero.
-rho_cut_max = 333 ## You can use positive or negative values here. 
+rho_cut_min = 5 #Just use a positive index here to avoid zero.
+rho_cut_max = 250 ## You can use positive or negative values here. 
 
 # NOTE: The rho values above avoid the singularities for every energy level EXCEPT the n = 1, l = 0 level. 
 # For that level, you can run it seperatley with rho_cut_min = 5 and rho_cut_max = 250
