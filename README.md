@@ -67,6 +67,5 @@ a = 2.34 # GeV^{-1}
 def E(x, mu, a):
 `
 
-`
-    return x*mu*(mu*a)**(-4/3)
+    `   return x*mu*(mu*a)**(-4/3)
 `
