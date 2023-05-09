@@ -50,3 +50,14 @@ If you want to save outputs of the code as numpy files on your machine, change t
 You can also choose to simply save the text output of the code if you run the file _create_energy_spectrum.py_ on the command line. This information only contains the best fit zeta value for each iteration and each combination of $n, l$ and $\lambda$. Just write:
 
 `python create_energy_spectrum.py > simulation_out.txt`
+
+## Convert to GeV/MeV
+
+The eigenvalues outputted by the code are unitless. To get an Energy in GeV, use the relationship:
+
+`
+mu = your_value #1.85 GeV for c cbar, 5.14 GeV for b b ar. 
+a = 2.34 # GeV^{-1}
+def E(x, mu, a):
+    return x*m_c*(mu*a)**(-4/3)
+`
