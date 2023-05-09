@@ -30,8 +30,8 @@ assert a > 0
 assert all(number >= 0 for number in coulomb_constant_array)
 
 for quantum_numbers in levels:
-  assert type(quantum_numbers[0]) == int and quantum_numbers[0] >= 1
-  assert type(quantum_numbers[1]) == int and quantum_numbers[1] >= 0
+    assert type(quantum_numbers[0]) == int and quantum_numbers[0] >= 1
+    assert type(quantum_numbers[1]) == int and quantum_numbers[1] >= 0
   
 assert all(a <= b for a, b in zip(rho, rho[1:]))
 assert type(rho_cut_min) == int and rho_cut_min > 0
@@ -40,6 +40,6 @@ assert type(rho_cut_max) == int
 assert type(zeta_init) == dict
 
 for quantum_numbers in levels:
-  assert quantum_numbers in zeta_init.keys() 
+    assert quantum_numbers in zeta_init.keys() 
 
 
