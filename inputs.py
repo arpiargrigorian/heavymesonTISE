@@ -8,7 +8,7 @@ import numpy as np
 # Parameters of the Problem
 mu = 1.85 ## Recommended Value is 1.85 GeV for charmonium (c cbar) from Eichten+1978
 a = 1.95 ## Recommended Value is 1.96 GeV^{-1} for charmonium (c cbar) from Eichten+1978
-coulomb_constant_array = np.arange(0, 1.5, num = 100) # Numbers must be >= 0. For the charmonium problem, it is good to go up to 1.5. For the bottomonium problem, try a max value of 3.5. 
+coulomb_constant_array = np.arange(0, 1.5, num = 3) # Numbers must be >= 0. For the charmonium problem, it is good to go up to 1.5. For the bottomonium problem, try a max value of 3.5. 
 levels = [(1, 0), (1,1), (1, 2), (2, 0), (2, 1), (2, 2)] ### n,l must be integers, n >= 1, l >= 0.
 
 # Indepdent Variable Parameters
