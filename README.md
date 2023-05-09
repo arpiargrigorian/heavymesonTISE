@@ -43,3 +43,10 @@ _The Eigenvalue Parameters_
 
 ## Run Program
 
+Once all inputs are specified, open the file _create_energy_spectrum.py_.
+
+If you want to save outputs of the code as numpy files on your machine, change the variable SAVE_OUTPUT = True and specify the path you want to save the files in.
+
+You can also choose to simply save the text output of the code if you run the file _create_energy_spectrum.py_ on the command line. This information only contains the best fit zeta value for each iteration and each combination of $n, l$ and $\lambda$. Just write:
+
+`python create_energy_spectrum.py > simulation_out.txt`
