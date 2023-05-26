@@ -24,7 +24,7 @@ To find the energy spectrum as a function of $\lambda$, *open the file inputs.py
 _Constants of the Problem_
 
 - The reduced mass of the two body system $\mu$ (`mu`) in units of GeV/c$^{2}$. The mass must be positive. 
-- The constant for the strength of the linear potential $a$ (`a`) in units of (GeV/c$^2$)$^{-1}$. The constant $a$ must also be positive. 
+- The constant for the strength of the linear potential $a$ (`a`) in units of $(\textrm{GeV/c}^2)^{-1}$. The constant $a$ must also be positive. 
 - An array of numbers $\lambda$ (`coulomb_constant_array`) to test. $\lambda$ must be $\geq$ 0.  $\lambda$ is unitless. The array of $\lambda$ can also contain one number. 
 - A list of tuples that contains all the combinations of quantum numbers $n$, $l$ that will be in the spectrum. The first number in the tuple is the prinicpal quantum number $n$ and the second is the total angular momentum quantum number $l$. $n$ must be greater or equal to 1, $l$ is greater or equal to 0, and both $n$, $l$ must be integers. There is no need to order each tuple. 
   - i.e. `quantum_levels = [(1, 0), (2, 2), (2, 0)]`
